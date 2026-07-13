@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolivia Arte y Tradicion, Ballet Cultural</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body class="bg-body-tertiary">
+
+    <div class="d-flex flex-column flex-md-row vh-100 overflow-hidden">
+        
+        <nav class="d-md-none navbar navbar-dark bg-body border-bottom px-3 flex-shrink-0 shadow-sm">
+            <a class="navbar-brand m-0" href="index.html">
+                <img src="img/Gemini_Generated_Image_l6aynpl6aynpl6ay.png" alt="Ballet" height="40" style="object-fit: cover; border-radius: 4px;">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <aside class="offcanvas-md offcanvas-start bg-body border-end shadow-sm flex-shrink-0" tabindex="-1" id="sidebarOffcanvas" style="width: 280px;">
+            <div class="offcanvas-header border-bottom d-md-none">
+                <h5 class="offcanvas-title fw-bold">Menú Principal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarOffcanvas"></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column p-3 h-100 overflow-y-auto">
+                <div class="text-center mb-4 mt-3 d-none d-md-block">
+                    <img src="img/Gemini_Generated_Image_l6aynpl6aynpl6ay.png" alt="Ballet" width="150" class="img-fluid rounded">
+                </div>
+                <ul class="nav nav-pills flex-column mb-auto gap-2 w-100">
+                    <li><a href="index.html" class="nav-link link-body-emphasis"><i class="fas fa-home fa-fw me-2"></i> Inicio</a></li>
+                    <li><a href="alumnos.html" class="nav-link active"><i class="fas fa-users fa-fw me-2"></i> Alumnos</a></li>
+                    <li><a href="registro.html" class="nav-link link-body-emphasis"><i class="fas fa-user-plus fa-fw me-2"></i> Nuevo Ingreso</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="flex-grow-1 p-4 p-md-5 overflow-y-auto">
+            
+            <a href="alumnos.html" class="text-decoration-none d-inline-flex align-items-center mb-4 text-primary fw-medium">
+                <i class="fas fa-arrow-left me-2"></i> Volver al Buscador
+            </a>
+
+            <header class="mb-4">
+                <h2 class="fw-bold">Kardex Académico</h2>
+                <p class="text-muted">Expediente detallado del estudiante.</p>
+            </header>
+
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card shadow-sm border-secondary-subtle mb-4 text-center">
+                        <div class="card-body py-5">
+                            <div class="bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center fw-bold display-6 mx-auto mb-3" style="width: 96px; height: 96px;">
+                                JP
+                            </div>
+                            <h4 class="fw-bold text-body-emphasis">Juan Pérez</h4>
+                            <p class="text-muted mb-3">CI: 8475938 LP</p>
+                            <span class="badge text-bg-success bg-opacity-25 text-success border border-success-subtle px-3 py-2 rounded-pill">
+                                <i class="fas fa-check-circle me-1"></i> Alumno Regular
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm border-secondary-subtle">
+                        <div class="card-header bg-transparent border-secondary-subtle py-3">
+                            <h6 class="fw-bold text-primary m-0">Información General</h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3 bg-transparent text-break">
+                                <span class="text-muted"><i class="fas fa-calendar-alt fa-fw me-2 text-primary"></i>Ingreso</span>
+                                <span class="fw-semibold text-end">15 Feb 2024</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3 bg-transparent text-break">
+                                <span class="text-muted"><i class="fas fa-birthday-cake fa-fw me-2 text-primary"></i>Nac.</span>
+                                <span class="fw-semibold text-end">12 May 2005</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center py-3 bg-transparent border-bottom-0 text-break">
+                                <span class="text-muted"><i class="fas fa-phone fa-fw me-2 text-primary"></i>Celular</span>
+                                <span class="fw-semibold text-end">+591 71234567</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="card text-bg-primary shadow mb-4 bg-gradient">
+                        <div class="card-body d-flex justify-content-between align-items-center p-3 p-md-4">
+                            <div>
+                                <small class="text-primary-emphasis text-uppercase fw-bold">Cursando Actualmente</small>
+                                <h3 class="fw-bold text-white my-2">Caporales - Intermedio</h3>
+                                <div class="text-light opacity-75 small"><i class="fas fa-clock me-1"></i> Iniciado: 01 Mar 2026</div>
+                            </div>
+                            <div class="display-3 opacity-50 d-none d-sm-block">
+                                <i class="fas fa-shoe-prints"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm border-secondary-subtle">
+                        <div class="card-header bg-transparent border-secondary-subtle py-3 d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
+                            <h5 class="fw-bold m-0">Historial de Cursos</h5>
+                            <button class="btn btn-sm btn-outline-secondary"><i class="fas fa-print me-1"></i> Imprimir</button>
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="table-responsive">
+                                <table class="table table-hover table-borderless align-middle m-0 text-nowrap">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th class="ps-4 py-3">Curso / Danza</th>
+                                            <th class="py-3">Gestión</th>
+                                            <th class="py-3">Nota</th>
+                                            <th class="py-3">Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="border-top-0">
+                                        <tr>
+                                            <td class="ps-4 py-3 fw-medium">Tinku - Básico</td>
+                                            <td class="text-muted">Jul - Dic 2025</td>
+                                            <td class="fw-bold">95/100</td>
+                                            <td><span class="badge text-bg-success">Aprobado</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3 fw-medium">Caporales - Básico</td>
+                                            <td class="text-muted">Feb - Jun 2025</td>
+                                            <td class="fw-bold">88/100</td>
+                                            <td><span class="badge text-bg-success">Aprobado</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
